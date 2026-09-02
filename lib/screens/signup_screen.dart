@@ -45,8 +45,6 @@ class _SignupScreenState extends State<SignupScreen> {
       email: _emailController.text.trim(),
       password: _passwordController.text.trim(),
 
-      // New users are always regular users.
-      role: UserRoleEnum.user,
     );
 
     if (!mounted) return;
