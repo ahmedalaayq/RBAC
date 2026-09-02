@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221451186028",
+    "project_id": "role-based-access-practice",
+    "storage_bucket": "role-based-access-practice.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221451186028:android:1ab68175f382d756280d49",
+        "android_client_info": {
+          "package_name": "com.example.rbac_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARqTgWYsczYxDChQfgfHE-yXv7xS79SMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

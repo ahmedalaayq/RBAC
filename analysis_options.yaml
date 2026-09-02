@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  # Exclude generated/build folders from analysis — this prevents the IDE
+  # from showing thousands of false errors from Flutter build artifacts.
+  exclude:
+    - build/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - lib/generated/**
+    - .dart_tool/**
+
+  errors:
+    # Treat deprecated API usage as info, not warning
+    deprecated_member_use: info
+    deprecated_member_use_from_same_package: info
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    use_super_parameters: true
